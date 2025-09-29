@@ -4,8 +4,32 @@
 - A Temperature Monitor designed to detect the air temperature and display it on the LCD
 - When the temperature falls beyond a user-specified range, an alarm is triggered (beeping buzzer and flashing LED)
 - Can be powered internally with a 9V battery, or externally with a cable for longer periods
-## Materials & Tools
+## Materials
+### Mechanical:
+- ABS Enclosure & Lid
+- Screws
+- Washers
+- 3D-printed Battery Holder
+- Arduino Mounting Plate
+- Spacers for Mounting Plate
+### Electrical:
+- Arduino UNO Board
+- LEDs
+- Resistors
+- Piezo Buzzer
+- TMP36 Temp Sensor
+- 16x2 LCD Display
+- 22 Gauge stranded wire
+- Twist nut caps
+- Spade connectors
+- 9V battery
+- Solderable PCB Board
+### Tools:
+- Arduino IDE
+- Soldering iron
+- Drill
 
+![wiring](https://github.com/ibyteibit/Room-Temperature-Monitor/blob/main/pics/TempSensorWiring.png)
 ## Methodology
 - Modeled the enclosure with CAD (OnShape) and 3D printed the internal battery holder (Cura)
 - Connected internal wiring safely and efficiently with solder, heat-shrink tubing, spade connectors, twist-nut caps, PCB, and header pins for the Arduino & LCD
